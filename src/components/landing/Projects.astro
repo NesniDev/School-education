@@ -1,0 +1,23 @@
+---
+import {projects} from '../../config/projects.json'
+import Button from './Button.jsx'
+---
+
+<section class="mb-14 text-center">
+    <h2 class="font-bold text-5xl my-5 text-center">Proyectos</h2>
+    {
+        projects.map((project)=>(
+            <div class="flex flex-col md:flex-row text-center md:text-left my-5">                
+                <div class="flex-1">
+                    <h2 class="font-bold text-2xl my-4">{project.title}</h2>
+                    <p>{project.description}</p>  
+                    </div>
+                    <div class="flex-1">
+                        <img src={project.image} alt="" class="w-60 m-auto my-5">    
+                    </div> 
+            </div>
+            <Button client:load/>
+        ))
+    }
+</section>
+

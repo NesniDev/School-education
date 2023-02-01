@@ -1,0 +1,28 @@
+---
+import Footer from '../components/landing/Footer.astro'
+import "../styles/Layout.css"
+// import { ToastContainer, toast } from 'react-toastify';
+// import 'react-toastify/dist/ReactToastify.css';
+interface Props {
+    title: String;
+}
+
+const {title} = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Faviconn.svg" >
+    <title>Escuela Nest{title} </title>
+</head>
+<body>
+    <main class="mx-auto container md:pt-10">
+        <slot/>
+        <Footer/>
+    </main>
+</body>
+</html>

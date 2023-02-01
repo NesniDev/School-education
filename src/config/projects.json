@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "title": "Reciclado de botellas para niños",
+            "description": "El centro infantil Gabriela Mistral de La Rioja (provincia de Argentina) llevó a cabo un proyecto educativo para iniciar a los niños de 3 a 5 años en el reciclaje, el cual se centró en la reutilización de botellas plásticas.",
+            "image": "images/Reciclaje.svg"
+        },
+        {
+            "title": "Impresoras en 3D",
+            "description": "El ingeniero Mathhew Rogge y la ONG Techfortrade han  ideado una particular manera para aprovechar la chatarra tecnológica y construir con ella impresoras en 3D. Países como Kenia, Tanzania y México ya han acogido la iniciativa. El objetivo central es que los profesionales autóctonos elaboren sus propias máquinas y ganen en independencia. ",
+            "image": "images/3d.svg"
+        },
+        {
+            "title": "Educación cívica en las aulas",
+            "description": "El Gobierno de Chile ha desarrollado un proyecto para que la Educación Cívica vuelva a ser parte del programa de estudios del sistema público en el año 2016. La iniciativa, que está dirigida a tanto a alumnos de primaria como de secundaria, contempla la inclusión de una asignatura como tal y la realización de talleres y actividades extracurriculares. ",
+            "image": "images/Aulas.svg"
+        }
+    ]
+}
